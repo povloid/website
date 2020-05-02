@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Overtok Call Receiver</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Overtok Web Call Receiver">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="version" content="0.1">
+
+
+
+    <link rel="apple-touch-icon" href="/images/icon/android-icon-192x192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <link rel="preconnect" href="https://use.fontawesome.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/brands.css" integrity="sha384-whKHCkwP9f4MyD1vda26+XRyEg2zkyZezur14Kxc784RxUU1E7HvWVYj9EoJnUV7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/fontawesome.css" integrity="sha384-WK8BzK0mpgOdhCxq86nInFqSWLzR5UAsNg0MGX9aDaIIrFWQ38dGdhwnNCAoXFxL" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin.css">
+    <meta name="theme-color" content="#1158fc">
+
+
+  </head>
+
+  <body>
+
+    <div id="proto-activity" style="position: fixed;z-index:8000;right:50%;margin-right:-100px;top:50%;margin-top:-100px;" >
+      <img src="images/in-progress.svg"></img>
+    </div>
+
+    <div class="additional-top-space" style="position: fixed; z-index: 100; width: 100%;"></div>
+
+    <div id="app-container">
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="js/app.js"></script>
+  <script>overtok.wcr.core.init();</script>
+
+</html>
